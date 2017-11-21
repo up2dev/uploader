@@ -1,0 +1,22 @@
+{
+  "name" : "WBF/UploadBundle",
+  "description" : "Bundle permettant de gérer l'Upload de fichiers simplement grâce aux annotations",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "franz vetter",
+    "email" : "franz.vetter.a@gmail.com"
+  }],
+  "keywords" : [
+    "upload"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-4" : {
+      "TNS\\UploadBundle\\" : "src"
+    }
+  }
+}
