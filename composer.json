@@ -1,5 +1,5 @@
 {
-  "name" : "U2D/UploadBundle",
+  "name" : "u2d/upload-bundle",
   "description" : "Bundle permettant de gérer l'Upload de fichiers simplement grâce aux annotations",
   "type" : "symfony-bundle",
   "authors" : [{
