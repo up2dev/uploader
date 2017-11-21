@@ -3,5 +3,9 @@ Bundle symfony permettant l'upload de fichier grâce aux annotations.
 
 Pour installer:
 
-<b>composer require u2d/upload-bundle dev-master</b>
+composer require u2d/upload-bundle dev-master
+
+Puis dans le fichier app/AppKernel.php ajouter la ligne suivante à la liste des Bundles:
+
+new \TNS\UploadBundle\TNSUploadBundle()
 
